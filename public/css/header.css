@@ -1,0 +1,44 @@
+header{
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+}
+header div{
+    padding: 20px 0px;
+    height: 80px;
+    flex: 1;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header > div > a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px;
+    position: relative;
+}
+.header-item > a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1.5px;
+    left: 50%;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.header-item a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+#header-pagename{
+    font-weight: bold;
+}
+.header-item, .headerTitle{
+    flex: 4;
+}

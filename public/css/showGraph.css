@@ -1,0 +1,7 @@
+#graphArea{
+    padding: 40px 0;
+}
+#ohlcvmGraph{
+    width: 80%;
+    height: 50%;
+}

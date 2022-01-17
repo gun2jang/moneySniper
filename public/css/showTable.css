@@ -1,0 +1,24 @@
+.ohlcvmtable{
+    margin-top: 25px;
+    display: table;
+    font-size: 18px;
+    border-left: 1px solid black;
+}
+.rowheader{
+    display: table-row;
+    background-color: black;
+    color: white;
+}
+.row{
+    display: table-row;
+}
+.header-cell{
+    display: table-cell;
+    padding: 10px;
+}
+.cell{
+    display: table-cell;
+    padding: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}

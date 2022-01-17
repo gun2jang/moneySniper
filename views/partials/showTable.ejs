@@ -1,0 +1,33 @@
+<section id="content">
+    <div class="content-header">
+        OHLCVM table
+    </div>
+    <div class="table-ticker">
+        <input type="text" value="ex)   BTC" class="inputbox-ticker">
+        <button class="inputbox-ticker-submit">Search</button>
+    </div>
+    <div class="ohlcvmtable">
+        <div class="rowheader">
+            <div class="header-cell">Date</div>
+            <div class="header-cell">Open</div>
+            <div class="header-cell">High</div>
+            <div class="header-cell">Low</div>
+            <div class="header-cell">Close</div>
+            <div class="header-cell">Volume</div>
+            <div class="header-cell">Mean</div>
+            <div class="header-cell">Up-Down</div>
+        </div>
+        <% for(let i=0;i<20;i++){ %>
+        <div class="row">
+            <div class="cell">2022-01-01</div>
+            <div class="cell">53480000</div>
+            <div class="cell">53480000</div>
+            <div class="cell">53480000</div>
+            <div class="cell">53480000</div>
+            <div class="cell">53480000</div>
+            <div class="cell">53480000</div>
+            <div class="cell">Up</div>
+        </div>
+        <% } %>
+    </div>
+</section>

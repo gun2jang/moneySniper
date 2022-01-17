@@ -1,0 +1,71 @@
+/* font - titillium web */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+html{
+    font-family: 'Titillium web';
+}
+body{
+    margin: 0;
+    padding-top: 120px;
+    overflow-y: scroll;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+input{
+    border: 0;
+    font-family: 'Titillium web';
+}
+input:focus{
+    outline: none;
+}
+main{
+    display: flex;
+}
+header{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    height: 120px;
+    box-shadow: 0px 5px 15px 2px rgb(102 93 149 / 50%);
+}
+nav{
+    background-color: #f6f8f9;
+    flex: 1;
+    border-right: 1px solid #eee;
+}
+#content{
+    flex: 3;
+    padding: 25px 55px;
+}
+
+.content-header{
+    font-weight: 600;
+    font-size: 32px;
+    margin: 25px 0px;
+}
+
+.inputbox-ticker{
+    font-size: 24px;
+    border: 2.5px solid black;
+    padding: 3px 10px;
+    border-radius: 15px;
+    -webkit-transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s;
+}
+.inputbox-ticker:focus{
+    background-color: black;
+    color: white;
+}
+.inputbox-ticker-submit{
+    margin-left: 10px;
+    font-family: 'titillium web';
+    font-size: 24px;
+    padding: 3px 10px;
+    border: 2.5px solid black;
+    padding: 3px 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+}
