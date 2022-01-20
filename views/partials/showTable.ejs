@@ -17,17 +17,17 @@
             <div class="header-cell">Mean</div>
             <div class="header-cell">Up-Down</div>
         </div>
-        <% for(let i=0;i<20;i++){ %>
+        <% tableInfo.forEach(element => { %>
         <div class="row">
-            <div class="cell">2022-01-01</div>
-            <div class="cell">53480000</div>
-            <div class="cell">53480000</div>
-            <div class="cell">53480000</div>
-            <div class="cell">53480000</div>
-            <div class="cell">53480000</div>
-            <div class="cell">53480000</div>
-            <div class="cell">Up</div>
+            <div class="cell"><%= element.time.toString() %></div>
+            <div class="cell"><%= element.open %></div>
+            <div class="cell"><%= element.high %></div>
+            <div class="cell"><%= element.low %></div>
+            <div class="cell"><%= element.close %></div>
+            <div class="cell"><%= element.volume %></div>
+            <div class="cell"><%= element.ma5 %></div>
+            <div class="cell"><%= element.updown %></div>
         </div>
-        <% } %>
+        <% }) %>
     </div>
 </section>
